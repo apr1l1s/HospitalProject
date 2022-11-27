@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ПроектБольница</string>
-    <string name="button_calculate">Вычислить</string>
+    <string name="app_name">Проект Больница</string>
+    <string name="home">Домой</string>
+    <string name="notifications">Уведомления</string>
+    <string name="profile">Профиль</string>
 </resources>

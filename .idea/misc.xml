@@ -3,9 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1995" />
         <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/drawable/homeButton_foreground.xml" value="0.1995" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/drawable/home_button_foreground.xml" value="0.1995" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1995" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/drawable/notificationsButton_foreground.xml" value="0.1995" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/drawable/notifications_button_foreground.xml" value="0.1995" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/drawable/profile_button_foreground.xml" value="0.1995" />
         <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/layout/doctors_list_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/layout/fragment_notifications.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/layout/fragment_profile.xml" value="0.371875" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/menu/bottom_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/mipmap-anydpi-v26/homeButton.xml" value="0.1995" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/mipmap-anydpi-v26/homeButton_round.xml" value="0.1995" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1995" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1995" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/mipmap-anydpi-v26/notificationsButton.xml" value="0.1995" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/mipmap-anydpi-v26/notificationsButton_round.xml" value="0.1995" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/mipmap-anydpi-v26/notifications_button.xml" value="0.332" />
+        <entry key="..\:/Users/apr1l1s/AndroidStudioProjects/HospitalProject/app/src/main/res/mipmap-anydpi-v26/profileButton.xml" value="0.1995" />
       </map>
     </option>
   </component>
