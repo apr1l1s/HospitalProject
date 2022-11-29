@@ -15,6 +15,7 @@ class DoctorService {
             )
         }
     }
+    fun getDoctors():List<Doctor> = doctors
     companion object{
         private val professions = mutableListOf(
             "Кардиолог",
