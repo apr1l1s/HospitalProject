@@ -7,17 +7,26 @@
 
     <fragment
         android:id="@+id/fragmentHome"
-        android:name="com.example.hospitalproject.HomeFragment"
+        android:name="com.example.hospitalproject.home.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_fragmentHome_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+    </fragment>
     <fragment
         android:id="@+id/fragmentNotifications"
-        android:name="com.example.hospitalproject.NotificationsFragment"
+        android:name="com.example.hospitalproject.notification.NotificationsFragment"
         android:label="fragment_notifications"
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/fragmentProfile"
-        android:name="com.example.hospitalproject.ProfileFragment"
+        android:name="com.example.hospitalproject.profile.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.hospitalproject.home.registration.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" />
 </navigation>

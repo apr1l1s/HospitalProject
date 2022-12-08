@@ -1,4 +1,4 @@
-package com.example.hospitalproject.model
+package com.example.hospitalproject.home.doctor
 
 import com.github.javafaker.Faker
 

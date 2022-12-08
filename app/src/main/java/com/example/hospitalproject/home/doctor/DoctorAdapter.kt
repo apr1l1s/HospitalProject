@@ -1,14 +1,14 @@
-package com.example.hospitalproject
+package com.example.hospitalproject.home.doctor
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.hospitalproject.R
 import com.example.hospitalproject.databinding.ItemDoctorBinding
-import com.example.hospitalproject.model.Doctor
 
-class DoctorAdapter : RecyclerView.Adapter<DoctorAdapter.DoctorViewHolder>(), View.OnClickListener {
+class DoctorAdapter() : RecyclerView.Adapter<DoctorAdapter.DoctorViewHolder>(), View.OnClickListener {
     var doctors:List<Doctor> = emptyList()
     class DoctorViewHolder(
         val binding:ItemDoctorBinding
@@ -40,5 +40,6 @@ class DoctorAdapter : RecyclerView.Adapter<DoctorAdapter.DoctorViewHolder>(), Vi
     override fun getItemCount(): Int = doctors.size
     override fun onClick(view: View) {
         val doctor = view.tag as Doctor
+
     }
 }

@@ -1,4 +1,4 @@
-package com.example.hospitalproject.model
+package com.example.hospitalproject.home.doctor
 
 data class Doctor(
     val id:Long,

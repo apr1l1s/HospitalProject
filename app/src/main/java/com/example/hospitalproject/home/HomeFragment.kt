@@ -1,15 +1,13 @@
-package com.example.hospitalproject
+package com.example.hospitalproject.home
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import android.app.Application
-import android.view.LayoutInflater
-import android.view.ViewGroup
-import android.widget.Toast
-import com.example.hospitalproject.model.DoctorService
+import com.example.hospitalproject.App
+import com.example.hospitalproject.R
+import com.example.hospitalproject.home.doctor.DoctorAdapter
 
 
 class HomeFragment : Fragment(R.layout.fragment_home){
