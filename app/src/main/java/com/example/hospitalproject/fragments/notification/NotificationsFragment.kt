@@ -1,4 +1,4 @@
-package com.example.hospitalproject.notification
+package com.example.hospitalproject.fragments.notification
 import androidx.fragment.app.Fragment
 import com.example.hospitalproject.R
 

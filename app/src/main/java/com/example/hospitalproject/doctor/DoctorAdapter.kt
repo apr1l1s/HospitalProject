@@ -1,22 +1,24 @@
-package com.example.hospitalproject.home.doctor
+package com.example.hospitalproject.doctor
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.hospitalproject.R
 import com.example.hospitalproject.databinding.ItemDoctorBinding
 
-class DoctorAdapter() : RecyclerView.Adapter<DoctorAdapter.DoctorViewHolder>(), View.OnClickListener {
+class DoctorAdapter: RecyclerView.Adapter<DoctorAdapter.DoctorViewHolder>(){
+
+    var onItemClick: ((Doctor)->Unit)? = null
+
     var doctors:List<Doctor> = emptyList()
     class DoctorViewHolder(
         val binding:ItemDoctorBinding
     ) : RecyclerView.ViewHolder(binding.root)
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DoctorViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val binding = ItemDoctorBinding.inflate(inflater,parent,false)
-        binding.root.setOnClickListener(this)
         return DoctorViewHolder(binding)
     }
     override fun onBindViewHolder(holder: DoctorViewHolder, position: Int) {
@@ -36,10 +38,9 @@ class DoctorAdapter() : RecyclerView.Adapter<DoctorAdapter.DoctorViewHolder>(), 
                 photoImageView.setImageResource(R.drawable.ic_profile)
             }
         }
+        holder.itemView.setOnClickListener{
+            onItemClick?.invoke(doctor)
+        }
     }
     override fun getItemCount(): Int = doctors.size
-    override fun onClick(view: View) {
-        val doctor = view.tag as Doctor
-
-    }
 }

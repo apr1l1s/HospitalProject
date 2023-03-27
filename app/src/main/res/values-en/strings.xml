@@ -4,4 +4,6 @@
     <string name="home">Home</string>
     <string name="notifications">Notifications</string>
     <string name="profile">Profile</string>
+    <string name="enlist_button_text">enlist</string>
+    <string name="log_out">Log Out</string>
 </resources>

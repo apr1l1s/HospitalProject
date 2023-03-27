@@ -1,4 +1,4 @@
-package com.example.hospitalproject.home.doctor
+package com.example.hospitalproject.doctor
 
 import com.github.javafaker.Faker
 
@@ -20,7 +20,7 @@ class DoctorService {
         private val professions = mutableListOf(
             "Кардиолог",
             "Хирург",
-            "Терапев",
+            "Терапевт",
             "Уролог",
             "Стоматолог",
             "Аритмолог",
